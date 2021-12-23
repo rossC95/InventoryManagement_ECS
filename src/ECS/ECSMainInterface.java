@@ -13,6 +13,8 @@ public class ECSMainInterface extends javax.swing.JFrame {
         this.setLocationRelativeTo(null);
         // Set the current user's name to display on the interface
         this.lblUserName.setText(lblUserName.getText() + " " + emp.getLastName() + ", " + emp.getFirstName());
+        //this.lblUserName.setText(lblUserName.getText() + emp.getUsername()) + emp.getLastName() + ", " + emp.getFirstName());
+        
         // Set the current Employee object to the object passed to constructor
         empForm = emp;
         // Make the table uneditable

@@ -48,9 +48,9 @@ public class PDFGenerator {
         table.setWidthPercentage(110);
 
         // MySQL DB Credentials
-        final String CONNECTION_STRING =  "jdbc:mysql://equipmentcheckoutsystem.cp71biwqhxn1.us-east-2.rds.amazonaws.com:3306/equipmentcheckoutsystem";
-        final String USER_NAME = "admin";
-        final String PASSWORD = "CEIS400isGreat!";
+        final String CONNECTION_STRING =  "jdbc:mysql://localhost:3306/equipmentcheckoutsystem";
+        final String USER_NAME = "root";
+        final String PASSWORD = "devry123";
         
         try{
             // Initiate driver
@@ -127,9 +127,9 @@ public class PDFGenerator {
     private static void addRows(PdfPTable table) {
         
         // MySQL DB Credentials
-        final String CONNECTION_STRING =  "jdbc:mysql://equipmentcheckoutsystem.cp71biwqhxn1.us-east-2.rds.amazonaws.com:3306/equipmentcheckoutsystem";
-        final String USER_NAME = "admin";
-        final String PASSWORD = "CEIS400isGreat!";
+        final String CONNECTION_STRING =  "jdbc:mysql://localhost:3306/equipmentcheckoutsystem";
+        final String USER_NAME = "root";
+        final String PASSWORD = "devry123";
         
         try{
             // Initiate driver

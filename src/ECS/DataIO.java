@@ -10,8 +10,8 @@ import javax.swing.table.DefaultTableModel;
 
 public class DataIO {
     
-    private final String CONNECTION_STRING =  "jdbc:mysql://localhost:3306";
-    private final String USER_NAME = "admin";
+    private final String CONNECTION_STRING =  "jdbc:mysql://localhost:3306/equipmentcheckoutsystem";
+    private final String USER_NAME = "root";
     private final String PASSWORD = "devry123";
     
     public boolean checkUserAlreadyExists(Employee emp) throws ClassNotFoundException, SQLException {
@@ -140,7 +140,7 @@ public class DataIO {
         // Properties object for database credentials
         Properties connProps = new Properties();
         // Properties object credentials
-        connProps.setProperty("user", "admin");
+        connProps.setProperty("user", "root");
         connProps.setProperty("password", "devry123");
         // Create session to database
         Connection conn = DriverManager.getConnection(CONNECTION_STRING, connProps);
@@ -591,8 +591,8 @@ public class DataIO {
             "WHERE e.FNAME = \"" + keyword + "\" OR e.LNAME = \"" + keyword + "\" OR e.USERNAME = \"" + keyword + "\";";
         // Login property
         Properties connProps = new Properties();
-        connProps.setProperty("user", "admin");
-        connProps.setProperty("password", "CEIS400isGreat!");
+        connProps.setProperty("user", "root");
+        connProps.setProperty("password", "devry123");
         // Create session to database
         Connection conn = DriverManager.getConnection(CONNECTION_STRING, connProps);
         // Static sql statement
