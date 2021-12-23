@@ -1,0 +1,59 @@
+USE equipmentcheckoutsystem;
+DROP TABLE IF EXISTS `equipment`;
+CREATE TABLE `equipment` (
+  `ID` int NOT NULL AUTO_INCREMENT,
+  `NAME` varchar(45) NOT NULL,
+  `QUANTITY` int NOT NULL,
+  `DESCRIPTION` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`ID`),
+  UNIQUE KEY `ID_UNIQUE` (`ID`)
+);
+
+ 
+
+DROP TABLE IF EXISTS `employees`;
+CREATE TABLE `employees` (
+  `ID` int NOT NULL AUTO_INCREMENT,
+  `USERNAME` varchar(45) NOT NULL,
+  `PASSWORD` varchar(256) NOT NULL,
+  `IS_MANAGER` bit(1) NOT NULL,
+  `FNAME` varchar(45) NOT NULL,
+  `LNAME` varchar(45) NOT NULL,
+  PRIMARY KEY (`ID`),
+  UNIQUE KEY `ID_UNIQUE` (`ID`)
+);
+
+ 
+
+DROP TABLE IF EXISTS `orders`;
+CREATE TABLE `orders` (
+  `TRANSACTION_ID` int NOT NULL AUTO_INCREMENT,
+  `ITEM_ID` int DEFAULT NULL,
+  `EMPLOYEE_ID` int DEFAULT NULL,
+  `QUANTITY` int DEFAULT NULL,
+  `TIME_ORDERED` datetime NOT NULL,
+  `TIME_RETURNED` datetime DEFAULT NULL,
+  PRIMARY KEY (`TRANSACTION_ID`),
+  UNIQUE KEY `TRANSACTION_ID_UNIQUE` (`TRANSACTION_ID`)
+);
+
+ 
+
+DROP TABLE IF EXISTS `global_item_limits`;
+CREATE TABLE `global_item_limits` (
+  `ITEM_ID` int NOT NULL,
+  `RESTRICTION_QUANTITY` int NOT NULL,
+  PRIMARY KEY (`ITEM_ID`)
+);
+
+ 
+
+
+DROP TABLE IF EXISTS `individual_item_limts`;
+CREATE TABLE `individual_item_limts` (
+  `ITEM_ID` int NOT NULL,
+  `EMPLOYEE_ID` varchar(45) DEFAULT NULL,
+  `RESTRICTION_QUANTITY` int DEFAULT NULL,
+  PRIMARY KEY (`ITEM_ID`),
+  UNIQUE KEY `ItemID_UNIQUE` (`ITEM_ID`)
+);
