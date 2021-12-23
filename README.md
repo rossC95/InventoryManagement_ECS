@@ -2,20 +2,20 @@
 Inventory management system sample project to display a Java Swing Desktop application
 
 
-![ScreenShot](/ECS_Images/Login_Frame)
+![ScreenShot](/ECS_Images/Login_Frame.png)
 
-![](ECS_Images/Sample_Employee_Frame)
+![ScreenShot](ECS_Images/Sample_Employee_Frame.png)
 
-![](ECS_Images/Add_Item)
+![ScreenShot](ECS_Images/Add_Item.png)
 
-![](ECS_Images/Update_Item)
+![ScreenShot](ECS_Images/Update_Item.png)
 
-![](ECS_Images/Update_Item_Confirm)
+![ScreenShot](ECS_Images/Update_Item_Confirm.png)
 
-![](ECS_Images/Add_Limit_Search_Employee)
+![ScreenShot](ECS_Images/Add_Limit_Search_Employee.png)
 
-![](ECS_Images/Sample_Order)
+![ScreenShot](ECS_Images/Sample_Order.png)
 
-![](ECS_Images/Sample_Report_PDF)
+![ScreenShot](ECS_Images/Sample_Report_PDF.png)
 
-![](ECS_Images/Class_Diagram)
+![ScreenShot](ECS_Images/Class_Diagram.png)
