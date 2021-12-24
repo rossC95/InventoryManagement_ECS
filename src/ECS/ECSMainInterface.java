@@ -235,7 +235,9 @@ public class ECSMainInterface extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Please select an item to checkout", "Error: No item selected", JOptionPane.ERROR_MESSAGE);
             // Call local method
             loadInventory();
-        } else {
+        } 
+        
+        else {
             /*
             Collect all information within the TableModel for selected item
             Parse/type cast necessary information
@@ -275,14 +277,18 @@ public class ECSMainInterface extends javax.swing.JFrame {
                     JOptionPane.showMessageDialog(this, "Successfully checked out item");
                     // Display employee items currently checked out
                     viewCheckedOutItems();
-                } else {
+                } 
+                
+                else {
                     JOptionPane.showMessageDialog(this, "Error: Could not checkout item from inventory", "Error: Inventory unmodified", JOptionPane.ERROR_MESSAGE);
                     return;
                 }
-            } else {
+            } 
+            
+            else {
                 // Unsuccessful Item checkout
                 JOptionPane.showMessageDialog(this, "Database unmodified");
-                return;
+                //return;
             }   
             
         }
