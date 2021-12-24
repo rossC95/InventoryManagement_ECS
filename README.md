@@ -31,20 +31,52 @@ The following functionality is present when using the application after register
 <!-- Screenshots -->
 ### Sample Screenshots
 
-![ScreenShot](/ECS_Images/Login_Frame.png)
+![ScreenShot](ECS_Images/Login_Frame.png)
 
-![ScreenShot](ECS_Images/Sample_Employee_Frame.png)
+## Employee Interface
 
-![ScreenShot](ECS_Images/Add_Item.png)
+![ScreenShot](ECS_Images/EmployeeInterface/Main_Interface_Reload_Inventory_Button.png)
 
-![ScreenShot](ECS_Images/Update_Item.png)
+![ScreenShot](ECS_Images/EmployeeInterface/Checkout_Equipment_Quantity.png)
 
-![ScreenShot](ECS_Images/Update_Item_Confirm.png)
+![ScreenShot](ECS_Images/EmployeeInterface/Checkout_Equipment_Confirmation.png)
 
-![ScreenShot](ECS_Images/Add_Limit_Search_Employee.png)
+![ScreenShot](ECS_Images/EmployeeInterface/Checkout_Equipment_Approval.png)
 
-![ScreenShot](ECS_Images/Sample_Order.png)
+![ScreenShot](ECS_Images/EmployeeInterface/Checked_Out_Items_Button.png)
 
-![ScreenShot](ECS_Images/Sample_Report_PDF.png)
+![ScreenShot](ECS_Images/EmployeeInterface/Return_Equipment_Confirmation.png)
+
+![ScreenShot](ECS_Images/EmployeeInterface/Return_Equipment_Approval.png)
+
+## Manager Interface
+
+![ScreenShot](ECS_Images/ManagerInterface/Main_Manager_Interface.png)
+
+![ScreenShot](ECS_Images/ManagerInterface/View_Equipment_Log.png)
+
+![ScreenShot](ECS_Images/ManagerInterface/Add_Item.png)
+
+![ScreenShot](ECS_Images/ManagerInterface/Add_Item_Success.png)
+
+![ScreenShot](ECS_Images/ManagerInterface/Remove_Item_Confirmation.png)
+
+![ScreenShot](ECS_Images/ManagerInterface/Remove_Item_Success.png)
+
+![ScreenShot](ECS_Images/ManagerInterface/Update_Item.png)
+
+![ScreenShot](ECS_Images/ManagerInterface/Update_Item_Success.png)
+
+![ScreenShot](ECS_Images/ManagerInterface/Add_Limit_Search_Employee.png)
+
+![ScreenShot](ECS_Images/ManagerInterface/Report_Success.png)
+
+![ScreenShot](ECS_Images/ManagerInterface/Report_PDF.png)
+
+## Data Model
+
+![ScreenShot](ECS_Images/InventoryManagement_DataModel.png)
+
+## Class Diagram
 
 ![ScreenShot](ECS_Images/Class_Diagram.png)
