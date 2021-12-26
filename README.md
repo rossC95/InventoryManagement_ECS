@@ -51,7 +51,7 @@ The main employee interface where staff members can:
 
 ![ScreenShot](ECS_Images/EmployeeInterface/Main_Interface_Reload_Inventory_Button.png)
 
-Checking out an item:
+#### Checking out an item
 * Input prompt for the user to enter the amount of items required.
 * Confirmation prompt to ensure the correct amount was entered.
 * Success prompt notifying the user that changes have been made to the system reflecting their equipment checkout.
@@ -62,12 +62,12 @@ Checking out an item:
 
 ![ScreenShot](ECS_Images/EmployeeInterface/Checkout_Equipment_Approval.png)
 
-Viewing currently checked out equipment:
+#### Viewing currently checked out equipment
 * Displays equipment in the possession of the user currently logged into the system.
 
 ![ScreenShot](ECS_Images/EmployeeInterface/Checked_Out_Items_Button.png)
 
-Returning an item:
+#### Returning an item
 * Confirmation prompt to ensure the user would like to return the selected equipment items.
 * Success prompt notifying the user that changes have been made to the system reflecting the returned equipment.
 
@@ -86,12 +86,12 @@ The main manager interface where management staff can:
 
 ![ScreenShot](ECS_Images/ManagerInterface/Main_Manager_Interface.png)
 
-Viewing equipment log:
+#### Viewing equipment log:
 * View the equipment transaction log for all staff members.
 
 ![ScreenShot](ECS_Images/ManagerInterface/View_Equipment_Log.png)
 
-Adding an item to the system:
+#### Adding an item to the system:
 * Allows management staff too add new equipment items to the database.
 * Success prompt notifying the user that the item has been added to the system.
 
@@ -99,7 +99,7 @@ Adding an item to the system:
 
 ![ScreenShot](ECS_Images/ManagerInterface/Add_Item_Success.png)
 
-Removing an item from the system:
+#### Removing an item from the system:
 * 'Remove Item' button after an equipment item is selected from the current inventory listing.
 * Confirmation prompt to ensure the user would like to remove the selected equipment item from the system.
 * Success prompt notifying the user that the item has been removed to the system.
@@ -108,7 +108,7 @@ Removing an item from the system:
 
 ![ScreenShot](ECS_Images/ManagerInterface/Remove_Item_Success.png)
 
-Updating an existing item in the system:
+#### Updating an existing item in the system:
 * Allows management staff modify equipment item information in the database.
 * Success prompt notifying the user that the item has been modified in the system.
 
@@ -116,7 +116,7 @@ Updating an existing item in the system:
 
 ![ScreenShot](ECS_Images/ManagerInterface/Update_Item_Success.png)
 
-Adding item limit restrictions:
+#### Adding item limit restrictions:
 * Allows management staff to edit current item limits on a global and individual scale.
 * When adding or updating item limits for a specific employee the manager can use the search funcitonality.
 * The search function requires a first name, last name, or username that will be used to query the database.
@@ -125,7 +125,7 @@ Adding item limit restrictions:
 
 ![ScreenShot](ECS_Images/ManagerInterface/Add_Limit_Search_Employee.png)
 
-Generating and view PDF reports:
+#### Generating and view PDF reports:
 * Success prompt notifying the user that the report has been generated.
 * Demonstraction report displaying sample employee transaction details.
 
